@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "photoupload-235503",
+  "private_key_id": "652efd782715bab4b1cd755f1fc2963f99e9adc2",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC8fIiBEFTf/3N6\nf/ydy8GWj6T/BRiFmOhU9BJPhI2tpMmyrp9di0mnfsV53d2XPWF+ei2p6/axDfuZ\nckjyzD/RFmpSI4iDMAShIHzI0XKbReNl7sHN/g2j4dlpIUr2tX4M4lr4ZZxG1qRN\nkymqb/urVMDhaiasCLdJMBt8gARolDOAEgfAieI+w0+SBKjKJugPiJllgaTpWRmN\nedrYODKmXmTkb3uIrgab9JlerdDmGZfcnmrDS+4C21TaIPgiq+cOZVm+P0JQ7Z0q\n65PnA2onC1Wd0Aep5TJbEfirpA5hlqZesU3+oWSZx2Yy2UuFd+0wQRO8+/VDrlRh\nPbVQdaXtAgMBAAECggEAGn4Yg6eDfn59wTSXEajPe3WSN+QD99cvpK0vm6yia0sz\nrGE99hx7TEcVw5TLLhRLDUdn/q+zW1x/RiiZl0LdH2rao9PpvqKzq+AQmftSc/+l\nQDEIXYc9bJD0iYHL8xQ8dNwl9C74Ab7ulha+rv2Rbpn5iFVuvRR2iptv6ZZmyDn6\nV5BsL5pLe5qMFFmSgo/mmgd3g/KnJqXPJ/CU+MXQGf6Y3hhGmZobDfxmnA1gp1xR\n1VF/sQdZFdP4ZdEhbGA+n1byZyLJ6bc99DS81Dxbpp5QuUhZcp7NMr0cKWsiRMHH\n6ih99Rg6Xl68htPwd+bDwx7kVeeS2iJz45EjQ/gVwQKBgQDzHxpntgV4LafTRF6H\nRUcQHbS2weQJeJbk7YkXjXr340K4N/ngAPZ8QexIoNoAc6CHRwR2+VD+c0uZb71G\nHGLecnGzsT2G+eYkyhI6Hr3cnt1WJb3eM6veNcmf3uF7VQRXtou9DJ7SD8DPQTu6\nnUe/uGZUqbKcIw4nMkrBubLRYQKBgQDGeIp3uqGtHcP3K/YshUsya9uKY9uNJbkb\n/qWTaVfrb+Uxgs9hz5fzgvhqhPBZqQq93A6evyeGGgQzCRPGU3F75jVTpaxXbhBb\n1opBbIb6Elv0juZF5Kjqfuaw2x62H/Rgzmd0zeBK9bbb7x1+ypyZ2405QHMx3cr9\nCMpvt0uEDQKBgHwPKQg3B791fKf/wUTBgyukHO0NL3HtyQH0e/o6xb7shsU+OxGl\nLCHn+cxt2BBW8FlXUd3sBvpwlukq7ahzH7hnKcIJ9V2E831eZ8KkoTmND2DATYyv\nTUpMpCAiOWkXzul7Sv8jC4Ahbb/Uh8gILe6VCBK3rV6jPLufnCoSuj7BAoGASccB\nYiSEeT/5WuaCqmYaX/HsOHOKZ9vABgIRNs0QG7sKre78fFWZHLJw+dfVKN9H2O/2\nl1hjrtv496fGLBFUvEQFSsTpXc7SUfFcj5lyS3+Lo0uDmjO3/wORaejqb7VNOLdB\nihAF8peIlBU9F6bls+QDiWbF66GRFaKw7fprHfkCgYEAvag7vwXFaCjpyp/xS4MT\nmuvFl+zGFe2M9ArgxZ8/tdzPGTQ85TXVa1Xn0dwffuebnVfUof92j+5V7ekmWiCD\ncDtqlXVeTBgIWpV7hNqYY7zKSVLxNe+inL5D1Em9ZdKQbct38nCzuqfSM423o2Lo\n2m5jfNDrK6osMkf6kpAzgfc=\n-----END PRIVATE KEY-----\n",
+  "client_email": "selfie-dataset@photoupload-235503.iam.gserviceaccount.com",
+  "client_id": "112925068702692869358",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/selfie-dataset%40photoupload-235503.iam.gserviceaccount.com"
+}
