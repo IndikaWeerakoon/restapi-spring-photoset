@@ -46,7 +46,7 @@ public class ImageController {
 
 
 
-    @CrossOrigin(origins = "http://localhost:4200")
+    @CrossOrigin(origins = "https://photo-upload-research.herokuapp.com")
     @RequestMapping(method = RequestMethod.GET, value = "test", produces = "application/json")
     public List<PrimaryImage> testApi(){
         List<PrimaryImage> imageList = new ArrayList<>();
@@ -55,7 +55,7 @@ public class ImageController {
         return imageList;
     }
 
-    @CrossOrigin(origins = "http://localhost:4200")
+    @CrossOrigin(origins = "https://photo-upload-research.herokuapp.com")
     @RequestMapping(method = RequestMethod.POST, value = "image/upload",consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
     public ResponseEntity<Object>uploadImg(@RequestParam("file") MultipartFile file) {
 
@@ -63,7 +63,7 @@ public class ImageController {
         return responseEntity;
     }
 
-    @CrossOrigin(origins = "http://localhost:4200")
+    @CrossOrigin(origins = "https://photo-upload-research.herokuapp.com")
     @RequestMapping(method =RequestMethod.POST,value = "image/multi/upload",produces = "application/json")
     //here this function try to upload two file at the same time and save them to two differnt location
     public ResponseEntity<Object> UploadRequestExpectedPhotoes(@RequestParam("file") MultipartFile file, @RequestParam("expected") MultipartFile expect){
