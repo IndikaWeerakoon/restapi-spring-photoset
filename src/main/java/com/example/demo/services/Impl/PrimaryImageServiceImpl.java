@@ -19,6 +19,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 import java.util.Optional;
+import java.util.TimeZone;
 
 @Service
 public class PrimaryImageServiceImpl implements PrimaryImageService {
@@ -61,6 +62,7 @@ public class PrimaryImageServiceImpl implements PrimaryImageService {
 
     private void dbWrite(String filePath,String fileName){
         SimpleDateFormat dateFormat = new SimpleDateFormat(StringRes.dateFormat);
+        dateFormat.setTimeZone(TimeZone.getTimeZone("Asia/Colombo"));
         PrimaryImage primaryImage = new PrimaryImage(fileName,filePath,false,dateFormat.format(new Date()));
         piRepo.save(primaryImage);
     }

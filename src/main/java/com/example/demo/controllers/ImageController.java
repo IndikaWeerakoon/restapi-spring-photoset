@@ -26,10 +26,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -88,6 +85,7 @@ public class ImageController {
                 PrimaryImage pr = new PrimaryImage();
 
                 SimpleDateFormat dateFormat = new SimpleDateFormat(StringRes.dateFormat);
+                dateFormat.setTimeZone(TimeZone.getTimeZone("Asia/Colombo"));
                 pr.setImageName(nativeFileDb.get(0));
                 pr.setImageUrl(nativeFileDb.get(1));
                 pr.setMasked(false);
