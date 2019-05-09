@@ -9,6 +9,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import java.sql.Date;
 
 @Entity
 @Data
@@ -23,11 +24,14 @@ public class PrimaryImage {
     private String imageUrl;
     @Setter@Getter
     private boolean masked;
+    @Setter@Getter
+    private String uploadTime;
 
-    public PrimaryImage(String imageName, String imageUrl, boolean masked){
+    public PrimaryImage(String imageName, String imageUrl, boolean masked,String uploadTime){
         this.imageName = imageName;
         this.imageUrl = imageUrl;
         this.masked = masked;
+        this.uploadTime = uploadTime;
     }
 
     public PrimaryImage(){}

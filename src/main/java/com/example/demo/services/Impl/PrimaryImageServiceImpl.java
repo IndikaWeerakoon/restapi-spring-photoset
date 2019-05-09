@@ -15,6 +15,8 @@ import org.springframework.web.multipart.MultipartFile;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 
@@ -58,7 +60,8 @@ public class PrimaryImageServiceImpl implements PrimaryImageService {
     }
 
     private void dbWrite(String filePath,String fileName){
-        PrimaryImage primaryImage = new PrimaryImage(fileName,filePath,false);
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd:HH:mm:ss");
+        PrimaryImage primaryImage = new PrimaryImage(fileName,filePath,false,dateFormat.format(new Date()));
         piRepo.save(primaryImage);
     }
 

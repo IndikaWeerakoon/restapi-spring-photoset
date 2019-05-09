@@ -25,7 +25,9 @@ import org.springframework.web.multipart.MultipartFile;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 import java.util.logging.Level;
@@ -85,9 +87,11 @@ public class ImageController {
 
                 PrimaryImage pr = new PrimaryImage();
 
+                SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd:HH:mm:ss");
                 pr.setImageName(nativeFileDb.get(0));
                 pr.setImageUrl(nativeFileDb.get(1));
                 pr.setMasked(false);
+                pr.setUploadTime(dateFormat.format(new Date()));
                 this.primImg.save(pr);
 
                 Optional<Long> imgSearch = this.primImg.findByImageName(nativeFileDb.get(0));
