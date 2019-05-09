@@ -60,7 +60,7 @@ public class PrimaryImageServiceImpl implements PrimaryImageService {
     }
 
     private void dbWrite(String filePath,String fileName){
-        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd:HH:mm:ss");
+        SimpleDateFormat dateFormat = new SimpleDateFormat(StringRes.dateFormat);
         PrimaryImage primaryImage = new PrimaryImage(fileName,filePath,false,dateFormat.format(new Date()));
         piRepo.save(primaryImage);
     }

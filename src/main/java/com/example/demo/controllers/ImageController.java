@@ -87,7 +87,7 @@ public class ImageController {
 
                 PrimaryImage pr = new PrimaryImage();
 
-                SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd:HH:mm:ss");
+                SimpleDateFormat dateFormat = new SimpleDateFormat(StringRes.dateFormat);
                 pr.setImageName(nativeFileDb.get(0));
                 pr.setImageUrl(nativeFileDb.get(1));
                 pr.setMasked(false);
